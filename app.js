@@ -85,7 +85,13 @@ console.log(obj);
 //--------------------------------
 //EIGHT ANSWER
 //--------------------------------
-
+function addNumbers(a, b) {
+  console.log("Result:", a + b);
+}
+function calculate(cb, a, b) {
+  cb(a, b); 
+}
+calculate(addNumbers, 5, 10);
 
 
 
